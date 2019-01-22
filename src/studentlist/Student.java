@@ -11,8 +11,10 @@ package studentlist;
  * @author shaim
  */
 public class Student {
+
     private String name;
     private int ID;
+    private String DOB;
     
     public Student()
     {
@@ -42,5 +44,12 @@ public class Student {
     public int getID ()
     {   
         return ID;
+    }
+    public void setDOB(String DOB) {
+        this.DOB = DOB;
+    }
+
+    public String getDOB() {
+        return DOB;
     }
 }
