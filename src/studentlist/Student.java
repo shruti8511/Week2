@@ -16,7 +16,8 @@ public class Student {
     private int ID;
     private String DOB;
     private int maxHrs;
-    
+
+ 
     public Student()
     {
         name = "Name Not Set";
@@ -53,4 +54,18 @@ public class Student {
     public String getDOB() {
         return DOB;
     }
+        public void setMaxHrs(int maxHrs) {
+        this.maxHrs = maxHrs;
+    }
+
+    public int getMaxHrs() {
+        return maxHrs;
+    }
+       @Override
+    public String toString() {
+        return "Student{" + "maxHrs=" + maxHrs + '}';
+    }
+
+
+    
 }
