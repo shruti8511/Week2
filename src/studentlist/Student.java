@@ -6,10 +6,6 @@ package studentlist;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author shaim
- */
 public class Student {
 
     private String name;
