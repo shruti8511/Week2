@@ -15,7 +15,6 @@ public class Student {
     private String name;
     private int ID;
     private String DOB;
-    private int maxHrs1;
     
     public Student()
     {
@@ -25,7 +24,7 @@ public class Student {
     public Student(String givenName, int givenID)
     {
           this.name = givenName;
-          this.ID = givenID;
+
     }
     public void setName(String givenName)
     {
